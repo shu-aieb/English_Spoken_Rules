@@ -27,12 +27,12 @@ On old phones, real-time `BackdropFilter` blurs consume battery life as a result
 ## 🏗️ Architecture & Tech Stack
 
 *   **Framework:** Flutter / Dart
-Architecture: Feature-First Clean Architecture (Domain, Data, Presentation)
-*   **State Management:** GetX (Local UI constructors, strictly scoped RX reactive states)
-This is not a rule, but a best practice.Not a rule, but a best practice: Dependency Injection: get_it (Factory & Singleton scoping).
-The other features:Nested routing trees for deep-linking (Nested routing).
-The data types supported by this storage are Hive (NoSQL) and SharedPreferencesAsync.
-You can also configure generic interceptors on the network configuration.Network configuration can also be configured with generic interceptors for `http`.
+*   **Architecture:** Feature-First Clean Architecture (Domain, Data, Presentation)
+*   **State Management:** GetX (Strictly scoped via local UI constructors, pure Rx reactive states)
+*   **Dependency Injection:** `get_it` (Factory & Singleton scoping)
+*   **Routing:** `go_router` (Nested routing trees for deep-linking)
+*   **Local Storage:** Hive (NoSQL) & `SharedPreferencesAsync`
+*   **Networking:** `http` with custom Generic Interceptors
 
 ### Folder Structure
 ```text
