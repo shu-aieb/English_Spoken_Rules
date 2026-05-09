@@ -16,6 +16,8 @@ The UI engine using the "Strategy Pattern". I designed a global Design System Co
 ### 1. The Classic Theme
 A faithful copy of the original app, with solid colours, typical Material drop shadow, and standard list views. Geared towards those who like to be precisely familiar.
 
+![UI Showcase](https://github.com/user-attachments/assets/a574f874-1554-4f73-b810-f29e1c969fc4)
+
 ### 2. The 3D Glassmorphism Theme
 A very high end, touch-driven interface, developed from scratch. 
 Mechanical Physics: Buttons are not flat, instead they use `Matrix4.translationValues` to actually push into the Z axis when they are tapped, which more closely resembles a mechanical keyboard.
