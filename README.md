@@ -1,4 +1,4 @@
-EnglishFor2Day - Rebuild of Mobile App.
+# EnglishFor2Day - Rebuild of Mobile App.
 
 Complete architectural rebuild and modernisation of the EnglishFor2Day educational app – made with Flutter.
 
