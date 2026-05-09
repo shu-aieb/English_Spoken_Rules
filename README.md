@@ -10,8 +10,8 @@ EnglishFor2Day has a huge audience, such as students with cell phone networks th
 **The Solution:**
 I refactored the application with a Feature-First Clean Architecture using a strict Offline-First Data Pipeline. The app now stores responses from the API in a local NoSQL database (Hive). When the network fails, the repository layer automatically switches back to the cache, without disrupting the student's reading experience.
 
-The "Strategy Pattern" UI Engine.The UI engine using the "Strategy Pattern".
-I designed a global Design System Controller to meet the legacy user experience, while maintaining the look and feel of modern design. The app will include 2 full visual layers which run independently of one another, both with all the same business logic.
+## 🎨 The "Strategy Pattern" UI Engine.
+The UI engine using the "Strategy Pattern". I designed a global Design System Controller to meet the legacy user experience, while maintaining the look and feel of modern design. The app will include 2 full visual layers which run independently of one another, both with all the same business logic.
 
 ### 1. The Classic Theme
 A faithful copy of the original app, with solid colours, typical Material drop shadow, and standard list views. Geared towards those who like to be precisely familiar.
